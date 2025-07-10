@@ -1,6 +1,6 @@
 import "./styles.css";
 import loadHome from './home';
-// import loadMenu from './menu';
+import {loadMenu} from './menu';
 // import loadContact from './contact';
 
 loadHome();
@@ -17,7 +17,7 @@ tabs.forEach(tab => {
                 loadHome();
                 break;
             case 'menu':
-                // loadMenu();
+                loadMenu();
                 break;
             case 'contact':
                 // loadContact();
