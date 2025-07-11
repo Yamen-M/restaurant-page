@@ -12,6 +12,9 @@ tabs.forEach(tab => {
         tab.classList.add('active');
 
         const tabName = tab.dataset.tab;
+
+        window.scrollTo(0, 0);
+
         switch(tabName) {
             case 'home':
                 loadHome();
