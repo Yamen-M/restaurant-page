@@ -1,7 +1,7 @@
 import "./styles.css";
 import loadHome from './home';
 import {loadMenu} from './menu';
-// import loadContact from './contact';
+import {loadContact} from './contact';
 
 loadHome();
 
@@ -20,7 +20,7 @@ tabs.forEach(tab => {
                 loadMenu();
                 break;
             case 'contact':
-                // loadContact();
+                loadContact();
                 break;
         }
     });
